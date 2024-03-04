@@ -15,7 +15,9 @@ public class Cercle {
             for (int j = -rayon; j <= rayon; j++) {
                 if (i * i + j * j <= rayon * rayon) {
                     System.out.print("* ");
-                } else {
+                } 
+                else 
+                {
                     System.out.print("  ");
                 }
             }
